@@ -1,0 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/*this is for the entire header which includes the NavBar component*/
+header{
+    background-color: #283618;
+    color: #B7B7A4;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    font-family: "Cursive";
+    font-optical-sizing: auto;
+    z-index: 999;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#CompanyHeader {
+    text-align: center;           
+    font-style: italic;
+    font-size: 2.5rem;
+    display: grid;
+    grid-template-columns: 1fr;   
+    justify-items: center;        
+    align-items: center;          
+}
+
+#CompanyName{
+    grid-row: 1;
+    align-self: center;
+}
+
+#Spacer{
+    grid-row: 1;
+}
