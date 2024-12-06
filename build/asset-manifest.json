@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Business-Class-On-Points/static/css/main.da5f523a.css",
-    "main.js": "/Business-Class-On-Points/static/js/main.6230abbd.js",
+    "main.css": "/Business-Class-On-Points/static/css/main.3364ffee.css",
+    "main.js": "/Business-Class-On-Points/static/js/main.acf23ec0.js",
     "static/js/453.efd9ec55.chunk.js": "/Business-Class-On-Points/static/js/453.efd9ec55.chunk.js",
     "static/media/video.MP4": "/Business-Class-On-Points/static/media/video.52b87d3988656eb1d181.MP4",
     "static/media/Headshot.png": "/Business-Class-On-Points/static/media/Headshot.d6f26995f43a87d27249.png",
@@ -14,12 +14,12 @@
     "static/media/pic5.jpg": "/Business-Class-On-Points/static/media/pic5.bd368e93e76ac4aab463.jpg",
     "static/media/Logo.png": "/Business-Class-On-Points/static/media/Logo.6fe928f214168fa822d1.png",
     "index.html": "/Business-Class-On-Points/index.html",
-    "main.da5f523a.css.map": "/Business-Class-On-Points/static/css/main.da5f523a.css.map",
-    "main.6230abbd.js.map": "/Business-Class-On-Points/static/js/main.6230abbd.js.map",
+    "main.3364ffee.css.map": "/Business-Class-On-Points/static/css/main.3364ffee.css.map",
+    "main.acf23ec0.js.map": "/Business-Class-On-Points/static/js/main.acf23ec0.js.map",
     "453.efd9ec55.chunk.js.map": "/Business-Class-On-Points/static/js/453.efd9ec55.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.da5f523a.css",
-    "static/js/main.6230abbd.js"
+    "static/css/main.3364ffee.css",
+    "static/js/main.acf23ec0.js"
   ]
 }
