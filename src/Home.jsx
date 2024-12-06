@@ -4,7 +4,7 @@ import image from './Images/Logo.png'
 export function Home(){
     console.log("Home component rendered");
     return(
-        // <div id = "For-Pad">
+         <div id = "For-Pad">
             <div id = "Home">
                 <div class="split-container">
                     <div class="left-box">
@@ -40,6 +40,6 @@ export function Home(){
                     </div>
                 </div>
             </div>
-        // </div>
+         </div>
     );
 }

@@ -5,7 +5,7 @@
     background-color: #B7B7A4;
     color: #FFFFd5;
     scroll-margin: 10rem;
-    padding-top: 2rem;
+    padding-top: 6rem;
 }
 
 #StartedHeader{
@@ -21,8 +21,7 @@
     justify-content: center;
     align-items: stretch;
     flex-wrap: wrap;
-    padding-left: 20rem;
-    padding-right: 20rem;
+    padding-top: 3rem;
 }
 
 .Steps{
@@ -121,4 +120,8 @@ hr{
 
 .formBox {
     background-color: #B7B7A4;
+}
+
+body {
+    overflow-x: hidden; 
 }
