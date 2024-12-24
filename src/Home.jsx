@@ -6,8 +6,8 @@ export function Home(){
     return(
          <div id = "For-Pad">
             <div id = "Home">
-                <div class="split-container">
-                    <div class="left-box">
+                <div className="split-container">
+                    <div className="left-box">
                     <h3 id = "Statement">Are you ready to turn your everyday <br/> spending into flights?</h3>
                         <section className = "BigDraw">
                             <div id = "Learn">
@@ -33,7 +33,7 @@ export function Home(){
                             </div>
                         </section>
                     </div>
-                    <div class="right-photo">
+                    <div className="right-photo">
                         <div className="logoImage">
                             <img src={image} id="photo"/>
                         </div>

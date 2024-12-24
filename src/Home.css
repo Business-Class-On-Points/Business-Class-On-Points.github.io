@@ -5,12 +5,11 @@
 #For-Pad{
     padding-top: 1rem;
     background-color: #B7B7A4;
-    padding-bottom: 8rem;
+    padding-bottom: 1rem;
 }
 
 #Home{
-    padding-top: 14rem;
-    padding-bottom: 7rem;
+    padding-top: 5rem;
     font-family: "Playfair Display", serif;
     font-style: normal;
     font-optical-sizing: auto;
@@ -86,7 +85,7 @@ hr{
     }
 
     .right-photo {
-        visibility: hidden; /* Hide the right photo but keep space occupied */
+        display: hidden;
     }
 }
 

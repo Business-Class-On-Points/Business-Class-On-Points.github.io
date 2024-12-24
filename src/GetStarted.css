@@ -118,8 +118,9 @@ hr{
     justify-content: center;
 }
 
-.formBox {
-    background-color: #B7B7A4;
+
+.form:hover{
+    transform: scale(1.05); 
 }
 
 body {
