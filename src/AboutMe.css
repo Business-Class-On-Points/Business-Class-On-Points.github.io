@@ -63,6 +63,8 @@ hr{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .split-container {
@@ -105,8 +107,23 @@ hr{
         flex-direction: column; /* Stack items vertically */
         justify-content: center;
         align-items: center;
+        width: 100%; 
+        padding: 0;
+
     }
+    .left-box {
+        /* Adjust padding for mobile */
+        padding: 1rem;
+        width: 100%;
+        /* Ensure proper centering */
+        display: flex;
+        justify-content: center;
+    }
+    
     #headshot {
-        max-height: 15rem; /* Smaller headshot size */
+        /* Ensure the image is centered */
+        max-height: 19rem;
+        margin: 0 auto;
+        display: block;
     }
 }

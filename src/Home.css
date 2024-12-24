@@ -19,7 +19,8 @@
 
 #Statement{
     font-size: 2rem;
-    padding-left: 2rem;
+    text-align: center;
+    padding-top: 1rem;
 }
 
 
@@ -54,6 +55,10 @@ hr{
     margin-top: 0.5rem;
 }
 
+.logoImage {
+    max-width: 25rem;
+}
+
 
 .BigDraw div{
     background-color:#F0EFEB;
@@ -84,8 +89,18 @@ hr{
         padding-bottom: 0.8rem;
     }
 
-    .right-photo {
-        display: hidden;
+    .split-container {
+        flex-direction: column;
+    }
+
+    .left-box {
+        max-width: 100%;
+        border-radius: 0; /* Optional: adjust border radius for mobile */
+        padding: 1rem;
+    }
+
+    .logoImage {
+        width: 19rem;
     }
 }
 

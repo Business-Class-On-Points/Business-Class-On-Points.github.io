@@ -28,7 +28,7 @@ export function Home(){
                             <section className = "individualBox">
                                 <h2>Enjoy</h2>
                                 <hr></hr>
-                                <p>Fly in a flatbed business or first class seat for the same price as a coach ticket in just six months. Relax in luxury airplane lounges before your fight, enjoying complimentary food, drinks, and amenities before your flight.</p>
+                                <p>Fly in a flatbed business or first class seat for the same price as a coach ticket in just six months. Relax in luxury airplane lounges before your flight, enjoying complimentary food, drinks, and amenities before your flight.</p>
                             </section>
                             </div>
                         </section>
