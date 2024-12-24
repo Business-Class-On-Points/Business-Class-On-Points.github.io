@@ -9,9 +9,9 @@
 }
 
 .Slides {
-    /* max-width: 80%;  */
-    max-height: 100rem;
-    margin-top: 5rem; 
+    max-width: 100%;
+    max-height: 50rem;
+    margin-top: 1rem; 
     padding: 1rem;
     box-sizing: border-box;
 
@@ -19,18 +19,15 @@
     overflow: hidden;
 }
 
-.image-gallery-slide img {
+.image-gallery-slide img, .image-gallery-slide video{
     width: 100%; 
     height: 100%; 
-    object-fit: contain; 
-    padding: 2rem;
+    object-fit: contain;  /* Ensures the images scale to fit without distortion */
+    padding: 2rem; /* Adjust padding as needed */
 
-    width: 300rem;  /* Set a fixed width */
-    height: 200rem; /* Set a fixed height */
-    overflow: hidden; /* Hide overflow to maintain consistency */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /* Remove fixed width and height */
+    max-width: 100%;
+    max-height: 35rem;
 }
 
 /* For tablets */
