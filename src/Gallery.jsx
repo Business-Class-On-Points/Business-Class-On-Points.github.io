@@ -14,8 +14,6 @@ import pic9 from './Images/pic9.jpg';
 import pic10 from './Images/pic10.jpg';
 import pic11 from './Images/pic11.jpg';
 import pic12 from './Images/pic12.jpg';
-import pic13 from './Images/pic13.jpg';
-import video1 from './Images/video1.MP4';
 import video2 from './Images/video2.MP4';
 import video3 from './Images/video3.MP4';
 import video4 from './Images/video4.MP4';
@@ -24,6 +22,10 @@ import video5 from './Images/video5.MP4';
 export function Gallery()
 {
     const images = [
+        {
+          original: pic11,
+          thumbnail: pic11,
+        },
         {
           original: pic1,
           thumbnail: pic1,
@@ -65,26 +67,10 @@ export function Gallery()
           thumbnail: pic10,
         },
         {
-          original: pic11,
-          thumbnail: pic11,
-        }
-        ,
-        {
           original: pic12,
           thumbnail: pic12,
         }
         ,
-        {
-          original: pic13,
-          thumbnail: pic13,
-        },
-        {
-          original: video1,
-          thumbnail: video1,
-          renderItem: (item) => (
-            <VideoItem src = {item.original}/>
-        ),
-        },
         {
           original: video2,
           thumbnail: video2,
