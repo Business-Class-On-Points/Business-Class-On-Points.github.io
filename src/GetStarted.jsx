@@ -68,13 +68,8 @@ export function GetStarted(){
                     <hr></hr>
                     <div className = "Info">If you have the right credit cards and enough points, I will help you book your next trip. If not, I will recommend which card to get and show you how to accumulate enough points for your future travels.</div>
                 </div>
-                <div className = "Steps" ref = {BottomRef1}>
-                    <h2 className = "Number">4.</h2>
-                    <hr></hr>
-                    <div className = "Info">After we book your business class flight, you will pay me the fee for a coach seat on the same flight to compensate for my time and expertise.</div>
-                </div>
                 <div className = "Steps" ref = {BottomRef2}>
-                    <h2 className = "Number">5.</h2>
+                    <h2 className = "Number">4.</h2>
                     <hr></hr>
                     <div className = "Info">In six months, you’ll be enjoying the comfort of business class on your next trip.</div>
                 </div>
