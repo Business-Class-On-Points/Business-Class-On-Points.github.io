@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+#GetStarted{
+    background-color: #B7B7A4;
+    color: #FFFFd5;
+    scroll-margin: 10rem;
+    padding-top: 6rem;
+}
+
+#StartedHeader{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    color: #283618;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.StartedContainer{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    padding-top: 3rem;
+}
+
+.Steps{
+    width: 15rem;
+    background-color:#F0EFEB;
+    margin: 1.5rem;
+    text-align: center;
+    padding-bottom: 0.5rem;
+    border-radius: 25px;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-family: "Roboto", sans-serif;
+    height: 15rem;
+}
+
+.form{
+    width: 10rem;
+    min-width: 15rem;
+    background-color:#F0EFEB;
+    margin: 1.5rem;
+    text-align: center;
+    padding-bottom: 0.5rem;
+    border-radius: 25px;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-family: "Roboto", sans-serif;
+    height: 3rem;
+}
+
+.formContainer {
+    align-items: center;
+}
+
+.Steps p{
+    max-width: 25rem;
+    font-size: 1.18rem;
+    padding: 0.5rem;
+}
+
+.Number{
+    color: #283618;
+    font-weight: 800;
+    font-size: 2rem;
+    text-align: left;
+    padding-left: 1.5rem;
+}
+
+.Info{
+    color: #283618;
+    padding: 0.5rem;
+}
+
+#form{
+    text-decoration: none;
+    color: #283618;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 700px){
+    .StartedContainer{
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+        align-items: center;
+    }
+
+    .Steps{
+        height: auto !important;
+    }
+}
+
+.Steps {
+    transition: transform 0.3s ease; 
+}
+
+.Steps:hover {
+    transform: scale(1.05); 
+}
+
+hr{
+    border-top: 2px solid #D4D4D4;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.formContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.formBox {
+    background-color: #B7B7A4;
+}
+
+body {
+    overflow-x: hidden; 
+}
