@@ -1,132 +1,130 @@
 #AboutMe {
-    display: flex;
-    flex-direction: column; 
-    align-items: flex-end; 
-    padding-bottom: 2rem;
-    font-family: "Playfair Display", serif;
-    font-style: normal;
-    font-optical-sizing: auto;
-    color: #283618;
-    background-color: #B7B7A4;
-    padding-bottom: 10rem;
-    padding-top: 10rem;
-    align-items: center;  
-    justify-content: center; 
-    min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-bottom: 2rem;
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-optical-sizing: auto;
+  color: #283618;
+  background-color: #b7b7a4;
+  padding-bottom: 10rem;
+  padding-top: 10rem;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
 
 .right-box {
-    display: flex;
-    gap: 1rem; 
-    padding: 3rem; 
-    align-items: flex-end;
-    justify-content: flex-end; 
-    flex-wrap: wrap;
+  display: flex;
+  gap: 1rem;
+  padding: 3rem;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-wrap: wrap;
 }
-
 
 .HuyPham {
-    background-color: #F0EFEB;
-    margin: 0.5rem;
-    border-radius: 1rem;
-    width: 90%;
-    max-width: 55rem;
-    height: auto;
-    padding: 2rem; 
-    font-size: 1.18rem;
+  background-color: #f0efeb;
+  margin: 0.5rem;
+  border-radius: 1rem;
+  width: 90%;
+  max-width: 55rem;
+  height: auto;
+  padding: 2rem;
+  font-size: 1.18rem;
 }
 
-hr{
-    border-top: 0.1rem solid #D4D4D4;
-    margin-bottom: 0.5rem;
-    margin-top: 0.5rem;
-
+hr {
+  border-top: 0.1rem solid #d4d4d4;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
 }
 
 .Intro {
-    font-size: 1.5rem;
-    padding-left: 1rem;
-    text-align: center; 
+  font-size: 1.5rem;
+  padding-left: 1rem;
+  text-align: center;
 }
 
 .text {
-    padding-left: 1rem;
-    text-align: justify;
+  padding-left: 1rem;
+  text-align: justify;
 }
 
 .HuyPham {
-    transition: transform 0.3s ease; 
+  transition: transform 0.3s ease;
 }
 
 .HuyPham:hover {
-    transform: scale(1.05); 
+  transform: scale(1.05);
 }
 
 .left-box {
-    flex: 2;
-    padding: 2rem;
-    border-radius: 25px;
-    transition: transform 0.3s ease; 
+  flex: 2;
+  padding: 2rem;
+  border-radius: 25px;
+  transition: transform 0.3s ease;
 }
 
 .split-container {
-    display: flex;
-    flex-wrap: wrap;  
-    align-items: center; 
-    justify-content: center;
-    gap: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
 }
 
 #headshot {
-    width: auto;
-    height: 100%;
-    max-height: 35rem;
-    display: block;
-    margin: 0 auto; 
-    border-radius: 15px; 
-  }
+  width: auto;
+  height: 100%;
+  max-height: 35rem;
+  display: block;
+  margin: 0 auto;
+  border-radius: 15px;
+}
 
 .left-box:hover {
-    transform: scale(1.05); 
+  transform: scale(1.05);
 }
 
 /* Media Queries for Responsive Design */
 
 /* For tablets */
 @media (max-width: 768px) {
-    .HuyPham {
-        font-size: 0.9rem;
-        padding: 1.5rem;
-    }
-    .Intro {
-        font-size: 1rem;
-    }
-    .split-container {
-        flex-direction: column; /* Stack items vertically */
-    }
-    #headshot {
-        max-height: 15rem; /* Smaller headshot size */
-    }
+  .HuyPham {
+    font-size: 0.9rem;
+    padding: 1.5rem;
+  }
+  .Intro {
+    font-size: 1rem;
+  }
+  .split-container {
+    flex-direction: column; /* Stack items vertically */
+  }
+  #headshot {
+    max-height: 15rem; /* Smaller headshot size */
+  }
 }
 
 /* For mobile screens */
 @media (max-width: 480px) {
-    #AboutMe {
-        padding: 3rem 1rem;
-    }
-    .HuyPham {
-        width: 100%;
-        padding: 1rem;
-        font-size: 0.85rem;
-    }
-    .Intro {
-        font-size: 0.9rem;
-    }
-    .right-box {
-        justify-content: center; /* Center content on mobile */
-        padding: 1rem;
-    }
-    .split-container {
-        gap: 1rem; /* Reduce gap */
-    }
+  #AboutMe {
+    padding: 3rem 1rem;
+  }
+  .HuyPham {
+    width: 100%;
+    padding: 1rem;
+    font-size: 0.85rem;
+  }
+  .Intro {
+    font-size: 0.9rem;
+  }
+  .right-box {
+    justify-content: center; /* Center content on mobile */
+    padding: 1rem;
+  }
+  .split-container {
+    gap: 1rem; /* Reduce gap */
+  }
 }
