@@ -23,6 +23,10 @@
   padding-left: 2rem;
 }
 
+#Learn {
+    /* padding-bottom: 2rem; */
+}
+
 .BigDraw {
   display: flex;
   justify-content: space-evenly;
@@ -39,6 +43,7 @@
   max-width: 25rem;
   font-size: 1.18rem;
   padding: 0.5rem;
+    hyphens: auto;
 }
 
 .BigDraw h2 {
@@ -60,7 +65,7 @@ hr {
   border-radius: 25px;
   padding: 2rem;
   width: 19rem; /* Fixed width instead of max-width */
-  height: 20rem; /* Fixed height instead of max-height */
+  height: 21rem; /* Fixed height instead of max-height */
   position: relative; /* Enables positioning adjustments for overlap */
 }
 
