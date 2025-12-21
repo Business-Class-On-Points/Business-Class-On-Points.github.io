@@ -9,6 +9,7 @@ import pic5 from "./Images/pic5.jpg";
 import pic6 from "./Images/pic6.jpg";
 import pic7 from "./Images/pic7.jpg";
 import video1 from "./Images/video.mp4";
+import video1Thumb from "./Images/videoThumbnail.png";
 
 export function Gallery() {
   const images = [
@@ -42,10 +43,10 @@ export function Gallery() {
     },
     {
       original: video1,
-      thumbnail: video1,
+      thumbnail: video1Thumb,
       renderItem: (item) => (
-        <div className="image-gallery-video">
-          <video controls width="1100rem">
+        <div className="image-gallery-image">
+          <video controls>
             <source src={item.original} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
@@ -61,7 +62,7 @@ export function Gallery() {
           items={images}
           showFullscreenButton={false}
           showPlayButton={false}
-          slideOnThumbnailOver={true}
+          slideOnThumbnailOver={false}
         />
       </div>
     </div>
