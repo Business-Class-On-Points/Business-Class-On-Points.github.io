@@ -8,7 +8,6 @@ import pic4 from "./Images/pic4.jpg";
 import pic5 from "./Images/pic5.jpg";
 import pic6 from "./Images/pic6.jpg";
 import pic7 from "./Images/pic7.jpg";
-import video1 from "./Images/video.mp4";
 import video1Thumb from "./Images/videoThumbnail.png";
 
 export function Gallery() {
@@ -42,7 +41,7 @@ export function Gallery() {
       thumbnail: pic7,
     },
     {
-      original: video1,
+      original: `${process.env.PUBLIC_URL}/video.mp4`,
       thumbnail: video1Thumb,
       renderItem: (item) => (
         <div className="image-gallery-image">
