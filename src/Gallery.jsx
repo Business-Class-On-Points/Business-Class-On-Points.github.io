@@ -43,31 +43,16 @@ export function Gallery() {
     {
       original: `${process.env.PUBLIC_URL}/video.mp4`,
       thumbnail: video1Thumb,
-      isVideo: true,
-    },
-  ];
-
-  const renderItem = (item) => {
-    if (item.isVideo) {
-      return (
+      renderItem: (item) => (
         <div className="image-gallery-image">
-          <video controls style={{ width: "100%", height: "auto" }}>
+          <video controls>
             <source src={item.original} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
-      );
-    }
-    return (
-      <div className="image-gallery-image">
-        <img
-          src={item.original}
-          alt={item.description || 'gallery-image'}
-          className="image-gallery-image"
-        />
-      </div>
-    );
-  };
+      ),
+    },
+  ];
 
   return (
     <div id="Gallery">
@@ -77,7 +62,6 @@ export function Gallery() {
           showFullscreenButton={false}
           showPlayButton={false}
           slideOnThumbnailOver={false}
-          renderItem={renderItem}
         />
       </div>
     </div>
