@@ -1,26 +1,25 @@
 {
   "files": {
-    "main.css": "https://businessclassonpoints.com/static/css/main.3e07c27a.css",
-    "main.js": "https://businessclassonpoints.com/static/js/main.53170501.js",
-    "static/js/453.efd9ec55.chunk.js": "https://businessclassonpoints.com/static/js/453.efd9ec55.chunk.js",
-    "static/media/video.mp4": "https://businessclassonpoints.com/static/media/video.52b87d3988656eb1d181.mp4",
-    "static/media/Headshot.png": "https://businessclassonpoints.com/static/media/Headshot.d6f26995f43a87d27249.png",
-    "static/media/videoThumbnail.png": "https://businessclassonpoints.com/static/media/videoThumbnail.b2888107ca8f8d09791c.png",
-    "static/media/pic7.jpg": "https://businessclassonpoints.com/static/media/pic7.83fcd71dc4b4bfee7ecf.jpg",
-    "static/media/pic4.jpg": "https://businessclassonpoints.com/static/media/pic4.757045daa191f16cf61d.jpg",
-    "static/media/pic1.jpg": "https://businessclassonpoints.com/static/media/pic1.f3346c856f87e52ab7b3.jpg",
-    "static/media/pic3.jpg": "https://businessclassonpoints.com/static/media/pic3.7763565b464de81c462d.jpg",
-    "static/media/pic6.jpg": "https://businessclassonpoints.com/static/media/pic6.d685cc56f93441c6f842.jpg",
-    "static/media/pic2.jpg": "https://businessclassonpoints.com/static/media/pic2.a2940f1940ddc3cd9cca.jpg",
-    "static/media/pic5.jpg": "https://businessclassonpoints.com/static/media/pic5.bd368e93e76ac4aab463.jpg",
-    "static/media/Logo.png": "https://businessclassonpoints.com/static/media/Logo.6fe928f214168fa822d1.png",
-    "index.html": "https://businessclassonpoints.com/index.html",
-    "main.3e07c27a.css.map": "https://businessclassonpoints.com/static/css/main.3e07c27a.css.map",
-    "main.53170501.js.map": "https://businessclassonpoints.com/static/js/main.53170501.js.map",
-    "453.efd9ec55.chunk.js.map": "https://businessclassonpoints.com/static/js/453.efd9ec55.chunk.js.map"
+    "main.css": "/static/css/main.3e07c27a.css",
+    "main.js": "/static/js/main.c48a868f.js",
+    "static/js/453.efd9ec55.chunk.js": "/static/js/453.efd9ec55.chunk.js",
+    "static/media/Headshot.png": "/static/media/Headshot.d6f26995f43a87d27249.png",
+    "static/media/videoThumbnail.png": "/static/media/videoThumbnail.b2888107ca8f8d09791c.png",
+    "static/media/pic7.jpg": "/static/media/pic7.83fcd71dc4b4bfee7ecf.jpg",
+    "static/media/pic4.jpg": "/static/media/pic4.757045daa191f16cf61d.jpg",
+    "static/media/pic1.jpg": "/static/media/pic1.f3346c856f87e52ab7b3.jpg",
+    "static/media/pic3.jpg": "/static/media/pic3.7763565b464de81c462d.jpg",
+    "static/media/pic6.jpg": "/static/media/pic6.d685cc56f93441c6f842.jpg",
+    "static/media/pic2.jpg": "/static/media/pic2.a2940f1940ddc3cd9cca.jpg",
+    "static/media/pic5.jpg": "/static/media/pic5.bd368e93e76ac4aab463.jpg",
+    "static/media/Logo.png": "/static/media/Logo.6fe928f214168fa822d1.png",
+    "index.html": "/index.html",
+    "main.3e07c27a.css.map": "/static/css/main.3e07c27a.css.map",
+    "main.c48a868f.js.map": "/static/js/main.c48a868f.js.map",
+    "453.efd9ec55.chunk.js.map": "/static/js/453.efd9ec55.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3e07c27a.css",
-    "static/js/main.53170501.js"
+    "static/js/main.c48a868f.js"
   ]
 }
